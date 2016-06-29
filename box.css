@@ -1,0 +1,57 @@
+.main-header {
+    width: 100%;
+    height: 75px;
+    background: #ccc;
+    padding: 25px;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+/*.main-header h1 {
+  float:left;
+}
+
+.main-header nav {
+  float: right;
+}*/
+
+.list li {
+    display: inline-flex;;
+}
+.box {
+    width: 50%;
+    height: 200px;
+    background-color: #1ceaf4;
+    position: relative;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: white;
+}
+.circle1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.circle2 {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.circle3 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.circle4 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+}
